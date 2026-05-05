@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.021370] (-) JobUnselected: {'identifier': 'drone_follower'}
+[0.021507] (drone_tracker) JobQueued: {'identifier': 'drone_tracker', 'dependencies': OrderedDict()}
+[0.021566] (drone_tracker) JobStarted: {'identifier': 'drone_tracker'}
+[0.101839] (-) TimerEvent: {}
+[0.203219] (-) TimerEvent: {}
+[0.303974] (-) TimerEvent: {}
+[0.407387] (-) TimerEvent: {}
+[0.507919] (-) TimerEvent: {}
+[0.614415] (-) TimerEvent: {}
+[0.716182] (-) TimerEvent: {}
+[0.819622] (-) TimerEvent: {}
+[0.920808] (-) TimerEvent: {}
+[1.025061] (-) TimerEvent: {}
+[1.128437] (-) TimerEvent: {}
+[1.233174] (-) TimerEvent: {}
+[1.335274] (-) TimerEvent: {}
+[1.438834] (-) TimerEvent: {}
+[1.541697] (-) TimerEvent: {}
+[1.644945] (-) TimerEvent: {}
+[1.749114] (-) TimerEvent: {}
+[1.852262] (-) TimerEvent: {}
+[1.955265] (-) TimerEvent: {}
+[2.056621] (-) TimerEvent: {}
+[2.157783] (-) TimerEvent: {}
+[2.265770] (-) TimerEvent: {}
+[2.367576] (-) TimerEvent: {}
+[2.469449] (-) TimerEvent: {}
+[2.573234] (-) TimerEvent: {}
+[2.680800] (-) TimerEvent: {}
+[2.781521] (-) TimerEvent: {}
+[2.884552] (-) TimerEvent: {}
+[2.984954] (-) TimerEvent: {}
+[3.087307] (-) TimerEvent: {}
+[3.188633] (-) TimerEvent: {}
+[3.289626] (-) TimerEvent: {}
+[3.391689] (-) TimerEvent: {}
+[3.492206] (-) TimerEvent: {}
+[3.593186] (-) TimerEvent: {}
+[3.698254] (-) TimerEvent: {}
+[3.799966] (-) TimerEvent: {}
+[3.904021] (-) TimerEvent: {}
+[4.004760] (-) TimerEvent: {}
+[4.107498] (-) TimerEvent: {}
+[4.210791] (-) TimerEvent: {}
+[4.311624] (-) TimerEvent: {}
+[4.417410] (-) TimerEvent: {}
+[4.518404] (-) TimerEvent: {}
+[4.619640] (-) TimerEvent: {}
+[4.721674] (-) TimerEvent: {}
+[4.826068] (-) TimerEvent: {}
+[4.926617] (-) TimerEvent: {}
+[5.029540] (-) TimerEvent: {}
+[5.133626] (-) TimerEvent: {}
+[5.235131] (-) TimerEvent: {}
+[5.336536] (-) TimerEvent: {}
+[5.438237] (-) TimerEvent: {}
+[5.539342] (-) TimerEvent: {}
+[5.642486] (-) TimerEvent: {}
+[5.742968] (-) TimerEvent: {}
+[5.846092] (-) TimerEvent: {}
+[5.949083] (-) TimerEvent: {}
+[6.054194] (-) TimerEvent: {}
+[6.156901] (-) TimerEvent: {}
+[6.258589] (-) TimerEvent: {}
+[6.360111] (-) TimerEvent: {}
+[6.460560] (-) TimerEvent: {}
+[6.565813] (-) TimerEvent: {}
+[6.672643] (-) TimerEvent: {}
+[6.776806] (-) TimerEvent: {}
+[6.877229] (-) TimerEvent: {}
+[6.977573] (-) TimerEvent: {}
+[7.079966] (-) TimerEvent: {}
+[7.183261] (-) TimerEvent: {}
+[7.284273] (-) TimerEvent: {}
+[7.384811] (-) TimerEvent: {}
+[7.489188] (-) TimerEvent: {}
+[7.593536] (-) TimerEvent: {}
+[7.695268] (-) TimerEvent: {}
+[7.797143] (-) TimerEvent: {}
+[7.901551] (-) TimerEvent: {}
+[8.006193] (-) TimerEvent: {}
+[8.107140] (-) TimerEvent: {}
+[8.208123] (-) TimerEvent: {}
+[8.311024] (-) TimerEvent: {}
+[8.413735] (-) TimerEvent: {}
+[8.516726] (-) TimerEvent: {}
+[8.620936] (-) TimerEvent: {}
+[8.722884] (-) TimerEvent: {}
+[8.824070] (-) TimerEvent: {}
+[8.924731] (-) TimerEvent: {}
+[9.028614] (-) TimerEvent: {}
+[9.129568] (-) TimerEvent: {}
+[9.233434] (-) TimerEvent: {}
+[9.336275] (-) TimerEvent: {}
+[9.437517] (-) TimerEvent: {}
+[9.539848] (-) TimerEvent: {}
+[9.641924] (-) TimerEvent: {}
+[9.744549] (-) TimerEvent: {}
+[9.845290] (-) TimerEvent: {}
+[9.949051] (-) TimerEvent: {}
+[10.050590] (-) TimerEvent: {}
+[10.153445] (-) TimerEvent: {}
+[10.256883] (-) TimerEvent: {}
+[10.357581] (-) TimerEvent: {}
+[10.459436] (-) TimerEvent: {}
+[10.562360] (-) TimerEvent: {}
+[10.663339] (-) TimerEvent: {}
+[10.767020] (-) TimerEvent: {}
+[10.876777] (-) TimerEvent: {}
+[10.977304] (-) TimerEvent: {}
+[11.079243] (-) TimerEvent: {}
+[11.181310] (-) TimerEvent: {}
+[11.284558] (-) TimerEvent: {}
+[11.384978] (-) TimerEvent: {}
+[11.488395] (-) TimerEvent: {}
+[11.589009] (-) TimerEvent: {}
+[11.691341] (-) TimerEvent: {}
+[11.794564] (-) TimerEvent: {}
+[11.895082] (-) TimerEvent: {}
+[11.996680] (-) TimerEvent: {}
+[12.098578] (-) TimerEvent: {}
+[12.168421] (drone_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_tracker', 'build', '--build-base', '/home/hadjer/drone_ws/build/drone_tracker/build', 'install', '--record', '/home/hadjer/drone_ws/build/drone_tracker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hadjer/drone_ws/src/drone_tracker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hadjer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hadjer', 'OLDPWD': '/home/hadjer/drone_ws/src/drone_tracker', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1935', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hadjer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hadjer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hadjer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hadjer-VirtualBox:@/tmp/.ICE-unix/1899,unix/hadjer-VirtualBox:/tmp/.ICE-unix/1899', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cc89fac3_6612_4ecd_8d50_ab20f77e36b6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BQ3MO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hadjer/ros2_ws/install:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hadjer/drone_ws/build/drone_tracker', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/hadjer/drone_ws/build/drone_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages:/home/hadjer/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[12.201996] (-) TimerEvent: {}
+[12.305455] (-) TimerEvent: {}
+[12.406312] (-) TimerEvent: {}
+[12.507049] (-) TimerEvent: {}
+[12.610475] (-) TimerEvent: {}
+[12.713704] (-) TimerEvent: {}
+[12.815099] (-) TimerEvent: {}
+[12.917976] (-) TimerEvent: {}
+[13.019174] (-) TimerEvent: {}
+[13.119691] (-) TimerEvent: {}
+[13.221858] (-) TimerEvent: {}
+[13.322227] (-) TimerEvent: {}
+[13.424094] (-) TimerEvent: {}
+[13.526005] (-) TimerEvent: {}
+[13.627032] (-) TimerEvent: {}
+[13.728662] (-) TimerEvent: {}
+[13.829158] (-) TimerEvent: {}
+[13.931306] (-) TimerEvent: {}
+[14.033992] (-) TimerEvent: {}
+[14.139978] (-) TimerEvent: {}
+[14.241472] (-) TimerEvent: {}
+[14.342028] (-) TimerEvent: {}
+[14.444786] (-) TimerEvent: {}
+[14.546337] (-) TimerEvent: {}
+[14.646943] (-) TimerEvent: {}
+[14.747362] (-) TimerEvent: {}
+[14.849622] (-) TimerEvent: {}
+[14.950981] (-) TimerEvent: {}
+[15.056197] (-) TimerEvent: {}
+[15.158921] (-) TimerEvent: {}
+[15.260861] (-) TimerEvent: {}
+[15.361546] (-) TimerEvent: {}
+[15.462466] (-) TimerEvent: {}
+[15.564090] (-) TimerEvent: {}
+[15.668173] (-) TimerEvent: {}
+[15.773385] (-) TimerEvent: {}
+[15.832960] (drone_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[15.834107] (drone_tracker) StdoutLine: {'line': b'creating ../../build/drone_tracker/drone_tracker.egg-info\n'}
+[15.874708] (-) TimerEvent: {}
+[15.976748] (-) TimerEvent: {}
+[16.079483] (-) TimerEvent: {}
+[16.110363] (drone_tracker) StdoutLine: {'line': b'writing ../../build/drone_tracker/drone_tracker.egg-info/PKG-INFO\n'}
+[16.119377] (drone_tracker) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_tracker/drone_tracker.egg-info/dependency_links.txt\n'}
+[16.126872] (drone_tracker) StdoutLine: {'line': b'writing entry points to ../../build/drone_tracker/drone_tracker.egg-info/entry_points.txt\n'}
+[16.131970] (drone_tracker) StdoutLine: {'line': b'writing requirements to ../../build/drone_tracker/drone_tracker.egg-info/requires.txt\n'}
+[16.132383] (drone_tracker) StdoutLine: {'line': b'writing top-level names to ../../build/drone_tracker/drone_tracker.egg-info/top_level.txt\n'}
+[16.132510] (drone_tracker) StdoutLine: {'line': b"writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'\n"}
+[16.181413] (-) TimerEvent: {}
+[16.284297] (-) TimerEvent: {}
+[16.390702] (-) TimerEvent: {}
+[16.492571] (-) TimerEvent: {}
+[16.593431] (-) TimerEvent: {}
+[16.698668] (-) TimerEvent: {}
+[16.746306] (drone_tracker) StdoutLine: {'line': b"reading manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'\n"}
+[16.755332] (drone_tracker) StdoutLine: {'line': b"writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'\n"}
+[16.760905] (drone_tracker) StdoutLine: {'line': b'running build\n'}
+[16.761458] (drone_tracker) StdoutLine: {'line': b'running build_py\n'}
+[16.761622] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/drone_tracker/build\n'}
+[16.768252] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/drone_tracker/build/lib\n'}
+[16.768929] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker\n'}
+[16.773012] (drone_tracker) StdoutLine: {'line': b'copying drone_tracker/tracker_node.py -> /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker\n'}
+[16.774653] (drone_tracker) StdoutLine: {'line': b'copying drone_tracker/__init__.py -> /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker\n'}
+[16.774838] (drone_tracker) StdoutLine: {'line': b'running install\n'}
+[16.801818] (-) TimerEvent: {}
+[16.839643] (drone_tracker) StdoutLine: {'line': b'running install_lib\n'}
+[16.904315] (-) TimerEvent: {}
+[17.006092] (-) TimerEvent: {}
+[17.095489] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker\n'}
+[17.098693] (drone_tracker) StdoutLine: {'line': b'copying /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker/tracker_node.py -> /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker\n'}
+[17.098966] (drone_tracker) StdoutLine: {'line': b'copying /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker/__init__.py -> /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker\n'}
+[17.105139] (drone_tracker) StdoutLine: {'line': b'byte-compiling /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker/tracker_node.py to tracker_node.cpython-312.pyc\n'}
+[17.107130] (-) TimerEvent: {}
+[17.111993] (drone_tracker) StdoutLine: {'line': b'byte-compiling /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker/__init__.py to __init__.cpython-312.pyc\n'}
+[17.116698] (drone_tracker) StdoutLine: {'line': b'running install_data\n'}
+[17.117104] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index\n'}
+[17.117246] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index\n'}
+[17.121318] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index/packages\n'}
+[17.121851] (drone_tracker) StdoutLine: {'line': b'copying resource/drone_tracker -> /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index/packages\n'}
+[17.127370] (drone_tracker) StdoutLine: {'line': b'copying package.xml -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker\n'}
+[17.127574] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/launch\n'}
+[17.127713] (drone_tracker) StdoutLine: {'line': b'copying launch/drone_launch.py -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/launch\n'}
+[17.136194] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/worlds\n'}
+[17.145207] (drone_tracker) StdoutLine: {'line': b'copying worlds/drone_world.sdf -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/worlds\n'}
+[17.149497] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models\n'}
+[17.152028] (drone_tracker) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone\n'}
+[17.163190] (drone_tracker) StdoutLine: {'line': b'copying models/drone/model.sdf -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone\n'}
+[17.163448] (drone_tracker) StdoutLine: {'line': b'copying models/drone/model.config -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone\n'}
+[17.163555] (drone_tracker) StderrLine: {'line': b"error: can't copy 'models/drone/meshes': doesn't exist or not a regular file\n"}
+[17.207909] (-) TimerEvent: {}
+[17.310604] (-) TimerEvent: {}
+[17.412098] (-) TimerEvent: {}
+[17.420396] (drone_tracker) CommandEnded: {'returncode': 1}
+[17.423205] (drone_tracker) JobEnded: {'identifier': 'drone_tracker', 'rc': 1}
+[17.444896] (-) EventReactorShutdown: {}

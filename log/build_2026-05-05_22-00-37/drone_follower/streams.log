@@ -1,0 +1,22 @@
+[3.727s] Invoking command in '/home/hadjer/drone_ws/build/drone_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hadjer/drone_ws/build/drone_follower/build --no-deps symlink_data --force
+[5.154s] running develop
+[6.058s] running egg_info
+[6.150s] writing drone_follower.egg-info/PKG-INFO
+[6.203s] writing dependency_links to drone_follower.egg-info/dependency_links.txt
+[6.222s] writing entry points to drone_follower.egg-info/entry_points.txt
+[6.222s] writing requirements to drone_follower.egg-info/requires.txt
+[6.222s] writing top-level names to drone_follower.egg-info/top_level.txt
+[6.351s] reading manifest file 'drone_follower.egg-info/SOURCES.txt'
+[6.405s] writing manifest file 'drone_follower.egg-info/SOURCES.txt'
+[6.488s] running build_ext
+[6.489s] Creating /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone-follower.egg-link (link to .)
+[6.489s] Installing controller_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower
+[6.490s] Installing vision_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower
+[6.490s] 
+[6.491s] Installed /home/hadjer/drone_ws/build/drone_follower
+[6.491s] running symlink_data
+[6.491s] symbolically linking /home/hadjer/drone_ws/build/drone_follower/resource/drone_follower -> /home/hadjer/drone_ws/install/drone_follower/share/ament_index/resource_index/packages
+[6.492s] symbolically linking /home/hadjer/drone_ws/build/drone_follower/package.xml -> /home/hadjer/drone_ws/install/drone_follower/share/drone_follower
+[6.494s] symbolically linking /home/hadjer/drone_ws/build/drone_follower/launch/sim.launch.py -> /home/hadjer/drone_ws/install/drone_follower/share/drone_follower/launch
+[6.494s] symbolically linking /home/hadjer/drone_ws/build/drone_follower/worlds/drone_world.sdf -> /home/hadjer/drone_ws/install/drone_follower/share/drone_follower/worlds
+[6.593s] Invoked command in '/home/hadjer/drone_ws/build/drone_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hadjer/drone_ws/build/drone_follower/build --no-deps symlink_data --force

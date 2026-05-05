@@ -1,0 +1,18 @@
+[10.005s] Invoking command in '/home/hadjer/drone_ws/build/drone_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hadjer/drone_ws/build/drone_follower/build --no-deps symlink_data
+[13.901s] running develop
+[16.731s] running egg_info
+[16.985s] writing drone_follower.egg-info/PKG-INFO
+[16.990s] writing dependency_links to drone_follower.egg-info/dependency_links.txt
+[16.990s] writing entry points to drone_follower.egg-info/entry_points.txt
+[16.995s] writing requirements to drone_follower.egg-info/requires.txt
+[16.999s] writing top-level names to drone_follower.egg-info/top_level.txt
+[17.542s] reading manifest file 'drone_follower.egg-info/SOURCES.txt'
+[17.549s] writing manifest file 'drone_follower.egg-info/SOURCES.txt'
+[17.784s] running build_ext
+[17.785s] Creating /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone-follower.egg-link (link to .)
+[17.789s] Installing controller_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower
+[17.793s] Installing vision_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower
+[17.793s] 
+[17.793s] Installed /home/hadjer/drone_ws/build/drone_follower
+[17.793s] running symlink_data
+[18.271s] Invoked command in '/home/hadjer/drone_ws/build/drone_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hadjer/drone_ws/build/drone_follower/build --no-deps symlink_data

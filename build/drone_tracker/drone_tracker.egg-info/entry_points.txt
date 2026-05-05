@@ -1,0 +1,2 @@
+[console_scripts]
+tracker_node = drone_tracker.tracker_node:main

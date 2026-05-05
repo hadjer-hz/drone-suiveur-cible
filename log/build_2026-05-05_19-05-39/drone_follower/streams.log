@@ -1,0 +1,28 @@
+[2.252s] Invoking command in '/home/hadjer/drone_ws/src/drone_follower': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_follower build --build-base /home/hadjer/drone_ws/build/drone_follower/build install --record /home/hadjer/drone_ws/build/drone_follower/install.log --single-version-externally-managed install_data
+[3.014s] running egg_info
+[3.080s] writing ../../build/drone_follower/drone_follower.egg-info/PKG-INFO
+[3.087s] writing dependency_links to ../../build/drone_follower/drone_follower.egg-info/dependency_links.txt
+[3.089s] writing entry points to ../../build/drone_follower/drone_follower.egg-info/entry_points.txt
+[3.090s] writing requirements to ../../build/drone_follower/drone_follower.egg-info/requires.txt
+[3.090s] writing top-level names to ../../build/drone_follower/drone_follower.egg-info/top_level.txt
+[3.198s] reading manifest file '../../build/drone_follower/drone_follower.egg-info/SOURCES.txt'
+[3.202s] writing manifest file '../../build/drone_follower/drone_follower.egg-info/SOURCES.txt'
+[3.202s] running build
+[3.203s] running build_py
+[3.203s] copying drone_follower/follower_node.py -> /home/hadjer/drone_ws/build/drone_follower/build/lib/drone_follower
+[3.203s] copying drone_follower/__init__.py -> /home/hadjer/drone_ws/build/drone_follower/build/lib/drone_follower
+[3.204s] running install
+[3.212s] running install_lib
+[3.264s] copying /home/hadjer/drone_ws/build/drone_follower/build/lib/drone_follower/follower_node.py -> /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone_follower
+[3.265s] copying /home/hadjer/drone_ws/build/drone_follower/build/lib/drone_follower/__init__.py -> /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone_follower
+[3.267s] byte-compiling /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone_follower/follower_node.py to follower_node.cpython-312.pyc
+[3.268s] byte-compiling /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone_follower/__init__.py to __init__.cpython-312.pyc
+[3.268s] running install_data
+[3.269s] copying resource/drone_follower -> /home/hadjer/drone_ws/install/drone_follower/share/ament_index/resource_index/packages
+[3.269s] copying package.xml -> /home/hadjer/drone_ws/install/drone_follower/share/drone_follower
+[3.270s] running install_egg_info
+[3.314s] Copying ../../build/drone_follower/drone_follower.egg-info to /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone_follower-0.0.0-py3.12.egg-info
+[3.318s] running install_scripts
+[3.746s] Installing follower_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower
+[3.746s] writing list of installed files to '/home/hadjer/drone_ws/build/drone_follower/install.log'
+[3.831s] Invoked command in '/home/hadjer/drone_ws/src/drone_follower' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_follower build --build-base /home/hadjer/drone_ws/build/drone_follower/build install --record /home/hadjer/drone_ws/build/drone_follower/install.log --single-version-externally-managed install_data

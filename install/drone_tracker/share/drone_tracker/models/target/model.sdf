@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="target">
+    <pose>5 0 0.5 0 0 0</pose>
+    <static>true</static>
+
+    <link name="target_link">
+      <visual name="target_visual">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+        <material>
+          <ambient>1 0 0 1</ambient>
+          <diffuse>1 0 0 1</diffuse>
+        </material>
+      </visual>
+
+      <collision name="target_collision">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+      </collision>
+    </link>
+
+  </model>
+</sdf>

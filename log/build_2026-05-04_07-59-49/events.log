@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.025215] (drone_follower) JobQueued: {'identifier': 'drone_follower', 'dependencies': OrderedDict()}
+[0.025281] (drone_follower) JobStarted: {'identifier': 'drone_follower'}
+[0.106153] (-) TimerEvent: {}
+[0.206718] (-) TimerEvent: {}
+[0.308597] (-) TimerEvent: {}
+[0.411598] (-) TimerEvent: {}
+[0.511935] (-) TimerEvent: {}
+[0.614300] (-) TimerEvent: {}
+[0.719190] (-) TimerEvent: {}
+[0.819795] (-) TimerEvent: {}
+[0.921360] (-) TimerEvent: {}
+[1.024248] (-) TimerEvent: {}
+[1.131667] (-) TimerEvent: {}
+[1.235350] (-) TimerEvent: {}
+[1.339232] (-) TimerEvent: {}
+[1.440689] (-) TimerEvent: {}
+[1.541286] (-) TimerEvent: {}
+[1.645291] (-) TimerEvent: {}
+[1.747755] (-) TimerEvent: {}
+[1.853834] (-) TimerEvent: {}
+[1.956247] (-) TimerEvent: {}
+[2.056867] (-) TimerEvent: {}
+[2.158382] (-) TimerEvent: {}
+[2.259651] (-) TimerEvent: {}
+[2.360350] (-) TimerEvent: {}
+[2.461187] (-) TimerEvent: {}
+[2.562877] (-) TimerEvent: {}
+[2.665454] (-) TimerEvent: {}
+[2.771162] (-) TimerEvent: {}
+[2.872466] (-) TimerEvent: {}
+[2.972759] (-) TimerEvent: {}
+[3.074577] (-) TimerEvent: {}
+[3.176140] (-) TimerEvent: {}
+[3.277797] (-) TimerEvent: {}
+[3.378366] (-) TimerEvent: {}
+[3.478669] (-) TimerEvent: {}
+[3.582695] (-) TimerEvent: {}
+[3.685929] (-) TimerEvent: {}
+[3.788340] (-) TimerEvent: {}
+[3.888730] (-) TimerEvent: {}
+[3.990631] (-) TimerEvent: {}
+[4.094336] (-) TimerEvent: {}
+[4.195661] (-) TimerEvent: {}
+[4.298156] (-) TimerEvent: {}
+[4.402661] (-) TimerEvent: {}
+[4.504240] (-) TimerEvent: {}
+[4.605492] (-) TimerEvent: {}
+[4.708684] (-) TimerEvent: {}
+[4.810721] (-) TimerEvent: {}
+[4.913737] (-) TimerEvent: {}
+[5.015921] (-) TimerEvent: {}
+[5.117621] (-) TimerEvent: {}
+[5.228376] (-) TimerEvent: {}
+[5.331160] (-) TimerEvent: {}
+[5.433192] (-) TimerEvent: {}
+[5.534606] (-) TimerEvent: {}
+[5.637944] (-) TimerEvent: {}
+[5.738661] (-) TimerEvent: {}
+[5.841164] (-) TimerEvent: {}
+[5.942569] (-) TimerEvent: {}
+[6.046106] (-) TimerEvent: {}
+[6.147029] (-) TimerEvent: {}
+[6.248076] (-) TimerEvent: {}
+[6.350255] (-) TimerEvent: {}
+[6.452555] (-) TimerEvent: {}
+[6.553673] (-) TimerEvent: {}
+[6.659157] (-) TimerEvent: {}
+[6.763552] (-) TimerEvent: {}
+[6.864635] (-) TimerEvent: {}
+[6.967679] (-) TimerEvent: {}
+[7.070336] (-) TimerEvent: {}
+[7.173338] (-) TimerEvent: {}
+[7.275124] (-) TimerEvent: {}
+[7.375866] (-) TimerEvent: {}
+[7.478240] (-) TimerEvent: {}
+[7.581976] (-) TimerEvent: {}
+[7.684329] (-) TimerEvent: {}
+[7.787145] (-) TimerEvent: {}
+[7.890941] (-) TimerEvent: {}
+[7.991466] (-) TimerEvent: {}
+[8.093988] (-) TimerEvent: {}
+[8.194271] (-) TimerEvent: {}
+[8.294588] (-) TimerEvent: {}
+[8.396719] (-) TimerEvent: {}
+[8.499292] (-) TimerEvent: {}
+[8.600208] (-) TimerEvent: {}
+[8.700513] (-) TimerEvent: {}
+[8.803743] (-) TimerEvent: {}
+[8.906156] (-) TimerEvent: {}
+[9.006550] (-) TimerEvent: {}
+[9.108476] (-) TimerEvent: {}
+[9.213679] (-) TimerEvent: {}
+[9.315007] (-) TimerEvent: {}
+[9.423164] (-) TimerEvent: {}
+[9.523921] (-) TimerEvent: {}
+[9.625447] (-) TimerEvent: {}
+[9.728976] (-) TimerEvent: {}
+[9.830580] (-) TimerEvent: {}
+[9.930993] (-) TimerEvent: {}
+[10.029870] (drone_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/hadjer/drone_ws/build/drone_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/home/hadjer/drone_ws/build/drone_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hadjer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hadjer', 'OLDPWD': '/home/hadjer/drone_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1936', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hadjer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hadjer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hadjer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hadjer-VirtualBox:@/tmp/.ICE-unix/1906,unix/hadjer-VirtualBox:/tmp/.ICE-unix/1906', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bbaf8400_a3ed_47b6_afd3_30bc0813f3e5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B6WPO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hadjer/ros2_ws/install/obstacle_avoidance:/home/hadjer/ros2_ws/install/fire_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hadjer/drone_ws/build/drone_follower', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/hadjer/drone_ws/build/drone_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages:/home/hadjer/ros2_ws/build/obstacle_avoidance:/home/hadjer/ros2_ws/install/obstacle_avoidance/lib/python3.12/site-packages:/home/hadjer/ros2_ws/build/fire_robot:/home/hadjer/ros2_ws/install/fire_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.037182] (-) TimerEvent: {}
+[10.141171] (-) TimerEvent: {}
+[10.242568] (-) TimerEvent: {}
+[10.344145] (-) TimerEvent: {}
+[10.444701] (-) TimerEvent: {}
+[10.547246] (-) TimerEvent: {}
+[10.649889] (-) TimerEvent: {}
+[10.754311] (-) TimerEvent: {}
+[10.856065] (-) TimerEvent: {}
+[10.957416] (-) TimerEvent: {}
+[11.057707] (-) TimerEvent: {}
+[11.159446] (-) TimerEvent: {}
+[11.263091] (-) TimerEvent: {}
+[11.364606] (-) TimerEvent: {}
+[11.464924] (-) TimerEvent: {}
+[11.569942] (-) TimerEvent: {}
+[11.675221] (-) TimerEvent: {}
+[11.780670] (-) TimerEvent: {}
+[11.881548] (-) TimerEvent: {}
+[11.983362] (-) TimerEvent: {}
+[12.084524] (-) TimerEvent: {}
+[12.188727] (-) TimerEvent: {}
+[12.290154] (-) TimerEvent: {}
+[12.391703] (-) TimerEvent: {}
+[12.493244] (-) TimerEvent: {}
+[12.595522] (-) TimerEvent: {}
+[12.696658] (-) TimerEvent: {}
+[12.798495] (-) TimerEvent: {}
+[12.898794] (-) TimerEvent: {}
+[13.000684] (-) TimerEvent: {}
+[13.113225] (-) TimerEvent: {}
+[13.217473] (-) TimerEvent: {}
+[13.322185] (-) TimerEvent: {}
+[13.426414] (-) TimerEvent: {}
+[13.527404] (-) TimerEvent: {}
+[13.629727] (-) TimerEvent: {}
+[13.735994] (-) TimerEvent: {}
+[13.843333] (-) TimerEvent: {}
+[13.926300] (drone_follower) StdoutLine: {'line': b'running develop\n'}
+[13.945776] (-) TimerEvent: {}
+[14.048250] (-) TimerEvent: {}
+[14.149897] (-) TimerEvent: {}
+[14.251543] (-) TimerEvent: {}
+[14.355212] (-) TimerEvent: {}
+[14.457069] (-) TimerEvent: {}
+[14.558752] (-) TimerEvent: {}
+[14.661138] (-) TimerEvent: {}
+[14.761553] (-) TimerEvent: {}
+[14.864052] (-) TimerEvent: {}
+[14.965704] (-) TimerEvent: {}
+[15.066003] (-) TimerEvent: {}
+[15.168716] (-) TimerEvent: {}
+[15.271817] (-) TimerEvent: {}
+[15.375602] (-) TimerEvent: {}
+[15.477480] (-) TimerEvent: {}
+[15.580446] (-) TimerEvent: {}
+[15.682498] (-) TimerEvent: {}
+[15.784565] (-) TimerEvent: {}
+[15.885102] (-) TimerEvent: {}
+[15.986059] (-) TimerEvent: {}
+[16.087236] (-) TimerEvent: {}
+[16.193654] (-) TimerEvent: {}
+[16.294848] (-) TimerEvent: {}
+[16.396124] (-) TimerEvent: {}
+[16.497383] (-) TimerEvent: {}
+[16.601655] (-) TimerEvent: {}
+[16.702789] (-) TimerEvent: {}
+[16.756394] (drone_follower) StdoutLine: {'line': b'running egg_info\n'}
+[16.804125] (-) TimerEvent: {}
+[16.906056] (-) TimerEvent: {}
+[17.007753] (-) TimerEvent: {}
+[17.009689] (drone_follower) StdoutLine: {'line': b'writing drone_follower.egg-info/PKG-INFO\n'}
+[17.014873] (drone_follower) StdoutLine: {'line': b'writing dependency_links to drone_follower.egg-info/dependency_links.txt\n'}
+[17.015043] (drone_follower) StdoutLine: {'line': b'writing entry points to drone_follower.egg-info/entry_points.txt\n'}
+[17.020063] (drone_follower) StdoutLine: {'line': b'writing requirements to drone_follower.egg-info/requires.txt\n'}
+[17.023966] (drone_follower) StdoutLine: {'line': b'writing top-level names to drone_follower.egg-info/top_level.txt\n'}
+[17.109129] (-) TimerEvent: {}
+[17.211355] (-) TimerEvent: {}
+[17.311590] (-) TimerEvent: {}
+[17.412688] (-) TimerEvent: {}
+[17.517543] (-) TimerEvent: {}
+[17.566957] (drone_follower) StdoutLine: {'line': b"reading manifest file 'drone_follower.egg-info/SOURCES.txt'\n"}
+[17.573447] (drone_follower) StdoutLine: {'line': b"writing manifest file 'drone_follower.egg-info/SOURCES.txt'\n"}
+[17.619551] (-) TimerEvent: {}
+[17.723369] (-) TimerEvent: {}
+[17.809038] (drone_follower) StdoutLine: {'line': b'running build_ext\n'}
+[17.810128] (drone_follower) StdoutLine: {'line': b'Creating /home/hadjer/drone_ws/install/drone_follower/lib/python3.12/site-packages/drone-follower.egg-link (link to .)\n'}
+[17.814204] (drone_follower) StdoutLine: {'line': b'Installing controller_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower\n'}
+[17.817751] (drone_follower) StdoutLine: {'line': b'Installing vision_node script to /home/hadjer/drone_ws/install/drone_follower/lib/drone_follower\n'}
+[17.817988] (drone_follower) StdoutLine: {'line': b'\n'}
+[17.818162] (drone_follower) StdoutLine: {'line': b'Installed /home/hadjer/drone_ws/build/drone_follower\n'}
+[17.818555] (drone_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[17.824570] (-) TimerEvent: {}
+[17.926249] (-) TimerEvent: {}
+[18.029372] (-) TimerEvent: {}
+[18.129768] (-) TimerEvent: {}
+[18.232239] (-) TimerEvent: {}
+[18.295719] (drone_follower) CommandEnded: {'returncode': 0}
+[18.332467] (-) TimerEvent: {}
+[18.437104] (-) TimerEvent: {}
+[18.464355] (drone_follower) JobEnded: {'identifier': 'drone_follower', 'rc': 0}
+[18.466841] (-) EventReactorShutdown: {}

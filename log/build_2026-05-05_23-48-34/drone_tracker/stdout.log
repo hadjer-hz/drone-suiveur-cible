@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/drone_tracker/drone_tracker.egg-info
+writing ../../build/drone_tracker/drone_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_tracker/drone_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_tracker/drone_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/drone_tracker/drone_tracker.egg-info/requires.txt
+writing top-level names to ../../build/drone_tracker/drone_tracker.egg-info/top_level.txt
+writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+reading manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_tracker/drone_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hadjer/drone_ws/build/drone_tracker/build
+creating /home/hadjer/drone_ws/build/drone_tracker/build/lib
+creating /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/tracker_node.py -> /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker
+copying drone_tracker/__init__.py -> /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker
+running install
+running install_lib
+creating /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker
+copying /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker/tracker_node.py -> /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker
+copying /home/hadjer/drone_ws/build/drone_tracker/build/lib/drone_tracker/__init__.py -> /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker
+byte-compiling /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker/tracker_node.py to tracker_node.cpython-312.pyc
+byte-compiling /home/hadjer/drone_ws/install/drone_tracker/lib/python3.12/site-packages/drone_tracker/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index
+creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index
+creating /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index/packages
+copying resource/drone_tracker -> /home/hadjer/drone_ws/install/drone_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker
+creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/launch
+copying launch/drone_launch.py -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/launch
+creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/worlds
+copying worlds/drone_world.sdf -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/worlds
+creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models
+creating /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone
+copying models/drone/model.sdf -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone
+copying models/drone/model.config -> /home/hadjer/drone_ws/install/drone_tracker/share/drone_tracker/models/drone
