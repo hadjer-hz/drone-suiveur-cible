@@ -1,6 +1,6 @@
 # Drone Suiveur de Cible
 
-Simulation d'un drone autonome qui suit une cible rouge avec ROS2 Jazzy et Gazebo Harmonic.
+Simulation d'un drone autonome qui suit une cible colorée (cube rouge). Le drone détecte la position de la cible et se déplace vers elle automatiquement grâce à un contrôleur proportionnel.
 
 ## Technologies
 
@@ -9,17 +9,6 @@ Simulation d'un drone autonome qui suit une cible rouge avec ROS2 Jazzy et Gazeb
 - Python 3
 - Ubuntu 24.04
 
-## Installation
-
-git clone git@github.com:hadjer-hz/drone-suiveur-cible.git
-cd drone-suiveur-cible
-colcon build --packages-select drone_tracker
-source install/setup.bash
-
 ## Lancer la simulation
 
 ros2 launch drone_tracker drone_launch.py
-
-## Auteur
-
-Hadjer Zigadi
