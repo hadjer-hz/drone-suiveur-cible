@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: arm-gazebo
+Version: 0.0.1
+Summary: Bras manipulateur 4DOF pick and place
+Maintainer: hadjer
+Maintainer-email: hadjerzigadi596@gmail.com
+License: MIT

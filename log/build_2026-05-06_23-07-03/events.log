@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.011227] (-) JobUnselected: {'identifier': 'drone_follower'}
+[0.011277] (-) JobUnselected: {'identifier': 'drone_tracker'}
+[0.011297] (arm_gazebo) JobQueued: {'identifier': 'arm_gazebo', 'dependencies': OrderedDict()}
+[0.011317] (arm_gazebo) JobStarted: {'identifier': 'arm_gazebo'}
+[0.107000] (-) TimerEvent: {}
+[0.208970] (-) TimerEvent: {}
+[0.311352] (-) TimerEvent: {}
+[0.414332] (-) TimerEvent: {}
+[0.514684] (-) TimerEvent: {}
+[0.618940] (-) TimerEvent: {}
+[0.720488] (-) TimerEvent: {}
+[0.822612] (-) TimerEvent: {}
+[0.924482] (-) TimerEvent: {}
+[1.026383] (-) TimerEvent: {}
+[1.129203] (-) TimerEvent: {}
+[1.231546] (-) TimerEvent: {}
+[1.334348] (-) TimerEvent: {}
+[1.435792] (-) TimerEvent: {}
+[1.538594] (-) TimerEvent: {}
+[1.640003] (-) TimerEvent: {}
+[1.741591] (-) TimerEvent: {}
+[1.844332] (-) TimerEvent: {}
+[1.944937] (-) TimerEvent: {}
+[2.045205] (-) TimerEvent: {}
+[2.148364] (-) TimerEvent: {}
+[2.249254] (-) TimerEvent: {}
+[2.353279] (-) TimerEvent: {}
+[2.454787] (-) TimerEvent: {}
+[2.559226] (-) TimerEvent: {}
+[2.660700] (-) TimerEvent: {}
+[2.763619] (-) TimerEvent: {}
+[2.865110] (-) TimerEvent: {}
+[2.966216] (-) TimerEvent: {}
+[3.067603] (-) TimerEvent: {}
+[3.169635] (-) TimerEvent: {}
+[3.271385] (-) TimerEvent: {}
+[3.375085] (-) TimerEvent: {}
+[3.476255] (-) TimerEvent: {}
+[3.578852] (-) TimerEvent: {}
+[3.683757] (-) TimerEvent: {}
+[3.786698] (-) TimerEvent: {}
+[3.891191] (-) TimerEvent: {}
+[3.992437] (-) TimerEvent: {}
+[4.099553] (-) TimerEvent: {}
+[4.199993] (-) TimerEvent: {}
+[4.300902] (-) TimerEvent: {}
+[4.401731] (-) TimerEvent: {}
+[4.503334] (-) TimerEvent: {}
+[4.604761] (-) TimerEvent: {}
+[4.708235] (-) TimerEvent: {}
+[4.810328] (-) TimerEvent: {}
+[4.911759] (-) TimerEvent: {}
+[5.016830] (-) TimerEvent: {}
+[5.117425] (-) TimerEvent: {}
+[5.218615] (-) TimerEvent: {}
+[5.320764] (-) TimerEvent: {}
+[5.422678] (-) TimerEvent: {}
+[5.525579] (-) TimerEvent: {}
+[5.626215] (-) TimerEvent: {}
+[5.729151] (-) TimerEvent: {}
+[5.832146] (-) TimerEvent: {}
+[5.935630] (-) TimerEvent: {}
+[6.038324] (-) TimerEvent: {}
+[6.141053] (-) TimerEvent: {}
+[6.241954] (-) TimerEvent: {}
+[6.346427] (-) TimerEvent: {}
+[6.448805] (-) TimerEvent: {}
+[6.549076] (-) TimerEvent: {}
+[6.649874] (-) TimerEvent: {}
+[6.750431] (-) TimerEvent: {}
+[6.852221] (-) TimerEvent: {}
+[6.952972] (-) TimerEvent: {}
+[7.057514] (-) TimerEvent: {}
+[7.158014] (-) TimerEvent: {}
+[7.258749] (-) TimerEvent: {}
+[7.360950] (-) TimerEvent: {}
+[7.463634] (-) TimerEvent: {}
+[7.563929] (-) TimerEvent: {}
+[7.668783] (-) TimerEvent: {}
+[7.771822] (-) TimerEvent: {}
+[7.874341] (-) TimerEvent: {}
+[7.976569] (-) TimerEvent: {}
+[8.078617] (-) TimerEvent: {}
+[8.180936] (-) TimerEvent: {}
+[8.283674] (-) TimerEvent: {}
+[8.386504] (-) TimerEvent: {}
+[8.486921] (-) TimerEvent: {}
+[8.588855] (-) TimerEvent: {}
+[8.690926] (-) TimerEvent: {}
+[8.793219] (-) TimerEvent: {}
+[8.894317] (-) TimerEvent: {}
+[8.995517] (-) TimerEvent: {}
+[9.099136] (-) TimerEvent: {}
+[9.200304] (-) TimerEvent: {}
+[9.301759] (-) TimerEvent: {}
+[9.403653] (-) TimerEvent: {}
+[9.506511] (-) TimerEvent: {}
+[9.607925] (-) TimerEvent: {}
+[9.711777] (-) TimerEvent: {}
+[9.814290] (-) TimerEvent: {}
+[9.916184] (-) TimerEvent: {}
+[10.017308] (-) TimerEvent: {}
+[10.116551] (arm_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_gazebo', 'build', '--build-base', '/home/hadjer/drone_ws/build/arm_gazebo/build', 'install', '--record', '/home/hadjer/drone_ws/build/arm_gazebo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hadjer/drone_ws/src/arm_gazebo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hadjer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hadjer', 'OLDPWD': '/home/hadjer/drone_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1931', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hadjer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hadjer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hadjer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hadjer-VirtualBox:@/tmp/.ICE-unix/1901,unix/hadjer-VirtualBox:/tmp/.ICE-unix/1901', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/30914faa_e479_4200_98d2_ee0888cb99c2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NHJIO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hadjer/ros2_ws/install:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hadjer/drone_ws/build/arm_gazebo', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/hadjer/drone_ws/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages:/home/hadjer/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.117484] (-) TimerEvent: {}
+[10.235435] (-) TimerEvent: {}
+[10.336468] (-) TimerEvent: {}
+[10.438737] (-) TimerEvent: {}
+[10.542504] (-) TimerEvent: {}
+[10.644068] (-) TimerEvent: {}
+[10.745405] (-) TimerEvent: {}
+[10.847240] (-) TimerEvent: {}
+[10.949590] (-) TimerEvent: {}
+[11.052610] (-) TimerEvent: {}
+[11.154790] (-) TimerEvent: {}
+[11.256774] (-) TimerEvent: {}
+[11.360263] (-) TimerEvent: {}
+[11.461756] (-) TimerEvent: {}
+[11.564055] (-) TimerEvent: {}
+[11.665043] (-) TimerEvent: {}
+[11.767200] (-) TimerEvent: {}
+[11.868709] (-) TimerEvent: {}
+[11.971684] (-) TimerEvent: {}
+[12.072318] (-) TimerEvent: {}
+[12.173746] (-) TimerEvent: {}
+[12.275574] (-) TimerEvent: {}
+[12.377828] (-) TimerEvent: {}
+[12.480964] (-) TimerEvent: {}
+[12.583922] (-) TimerEvent: {}
+[12.685174] (-) TimerEvent: {}
+[12.788650] (-) TimerEvent: {}
+[12.889330] (-) TimerEvent: {}
+[12.992272] (-) TimerEvent: {}
+[13.094212] (-) TimerEvent: {}
+[13.198083] (-) TimerEvent: {}
+[13.299231] (-) TimerEvent: {}
+[13.399876] (-) TimerEvent: {}
+[13.473517] (arm_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[13.500274] (-) TimerEvent: {}
+[13.600891] (-) TimerEvent: {}
+[13.701256] (arm_gazebo) StdoutLine: {'line': b'writing ../../build/arm_gazebo/arm_gazebo.egg-info/PKG-INFO\n'}
+[13.701407] (-) TimerEvent: {}
+[13.701503] (arm_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_gazebo/arm_gazebo.egg-info/dependency_links.txt\n'}
+[13.702292] (arm_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/arm_gazebo/arm_gazebo.egg-info/entry_points.txt\n'}
+[13.702540] (arm_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/arm_gazebo/arm_gazebo.egg-info/requires.txt\n'}
+[13.704201] (arm_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/arm_gazebo/arm_gazebo.egg-info/top_level.txt\n'}
+[13.802123] (-) TimerEvent: {}
+[13.903688] (-) TimerEvent: {}
+[14.004658] (-) TimerEvent: {}
+[14.108297] (-) TimerEvent: {}
+[14.126786] (arm_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'\n"}
+[14.134641] (arm_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'\n"}
+[14.134795] (arm_gazebo) StdoutLine: {'line': b'running build\n'}
+[14.134862] (arm_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[14.139469] (arm_gazebo) StdoutLine: {'line': b'copying arm_gazebo/arm_node.py -> /home/hadjer/drone_ws/build/arm_gazebo/build/lib/arm_gazebo\n'}
+[14.139716] (arm_gazebo) StdoutLine: {'line': b'running install\n'}
+[14.197216] (arm_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[14.210560] (-) TimerEvent: {}
+[14.311188] (-) TimerEvent: {}
+[14.412709] (-) TimerEvent: {}
+[14.428108] (arm_gazebo) StdoutLine: {'line': b'copying /home/hadjer/drone_ws/build/arm_gazebo/build/lib/arm_gazebo/arm_node.py -> /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo\n'}
+[14.438296] (arm_gazebo) StdoutLine: {'line': b'byte-compiling /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo/arm_node.py to arm_node.cpython-312.pyc\n'}
+[14.456940] (arm_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[14.462236] (arm_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.514208] (-) TimerEvent: {}
+[14.614865] (-) TimerEvent: {}
+[14.710237] (arm_gazebo) StdoutLine: {'line': b"removing '/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[14.713049] (arm_gazebo) StdoutLine: {'line': b'Copying ../../build/arm_gazebo/arm_gazebo.egg-info to /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.1-py3.12.egg-info\n'}
+[14.716886] (-) TimerEvent: {}
+[14.718778] (arm_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[14.818498] (-) TimerEvent: {}
+[14.919685] (-) TimerEvent: {}
+[15.020493] (-) TimerEvent: {}
+[15.122332] (-) TimerEvent: {}
+[15.224985] (-) TimerEvent: {}
+[15.326736] (-) TimerEvent: {}
+[15.433344] (-) TimerEvent: {}
+[15.535713] (-) TimerEvent: {}
+[15.637002] (-) TimerEvent: {}
+[15.737763] (-) TimerEvent: {}
+[15.839919] (-) TimerEvent: {}
+[15.942386] (-) TimerEvent: {}
+[16.044603] (-) TimerEvent: {}
+[16.092376] (arm_gazebo) StdoutLine: {'line': b'Installing arm_node script to /home/hadjer/drone_ws/install/arm_gazebo/lib/arm_gazebo\n'}
+[16.108034] (arm_gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/hadjer/drone_ws/build/arm_gazebo/install.log'\n"}
+[16.145362] (-) TimerEvent: {}
+[16.245935] (-) TimerEvent: {}
+[16.350254] (-) TimerEvent: {}
+[16.448977] (arm_gazebo) CommandEnded: {'returncode': 0}
+[16.456941] (-) TimerEvent: {}
+[16.570901] (-) TimerEvent: {}
+[16.597246] (arm_gazebo) JobEnded: {'identifier': 'arm_gazebo', 'rc': 0}
+[16.600419] (-) EventReactorShutdown: {}

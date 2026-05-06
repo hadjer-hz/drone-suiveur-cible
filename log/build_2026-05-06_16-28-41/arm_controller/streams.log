@@ -1,0 +1,22 @@
+[2.164s] Invoking command in '/home/hadjer/drone_ws/src/arm_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_controller build --build-base /home/hadjer/drone_ws/build/arm_controller/build install --record /home/hadjer/drone_ws/build/arm_controller/install.log --single-version-externally-managed install_data
+[2.916s] running egg_info
+[2.986s] writing ../../build/arm_controller/arm_controller.egg-info/PKG-INFO
+[2.986s] writing dependency_links to ../../build/arm_controller/arm_controller.egg-info/dependency_links.txt
+[2.988s] writing entry points to ../../build/arm_controller/arm_controller.egg-info/entry_points.txt
+[2.990s] writing requirements to ../../build/arm_controller/arm_controller.egg-info/requires.txt
+[2.993s] writing top-level names to ../../build/arm_controller/arm_controller.egg-info/top_level.txt
+[3.120s] reading manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'
+[3.123s] writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'
+[3.124s] running build
+[3.125s] running build_py
+[3.125s] running install
+[3.135s] running install_lib
+[3.218s] running install_data
+[3.219s] copying launch/arm_launch.py -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/launch
+[3.219s] running install_egg_info
+[3.279s] removing '/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller-0.0.1-py3.12.egg-info' (and everything under it)
+[3.279s] Copying ../../build/arm_controller/arm_controller.egg-info to /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller-0.0.1-py3.12.egg-info
+[3.281s] running install_scripts
+[3.562s] Installing arm_node script to /home/hadjer/drone_ws/install/arm_controller/lib/arm_controller
+[3.564s] writing list of installed files to '/home/hadjer/drone_ws/build/arm_controller/install.log'
+[3.656s] Invoked command in '/home/hadjer/drone_ws/src/arm_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_controller build --build-base /home/hadjer/drone_ws/build/arm_controller/build install --record /home/hadjer/drone_ws/build/arm_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[10.106s] Invoking command in '/home/hadjer/drone_ws/src/arm_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_gazebo build --build-base /home/hadjer/drone_ws/build/arm_gazebo/build install --record /home/hadjer/drone_ws/build/arm_gazebo/install.log --single-version-externally-managed install_data
+[13.462s] running egg_info
+[13.690s] writing ../../build/arm_gazebo/arm_gazebo.egg-info/PKG-INFO
+[13.690s] writing dependency_links to ../../build/arm_gazebo/arm_gazebo.egg-info/dependency_links.txt
+[13.691s] writing entry points to ../../build/arm_gazebo/arm_gazebo.egg-info/entry_points.txt
+[13.691s] writing requirements to ../../build/arm_gazebo/arm_gazebo.egg-info/requires.txt
+[13.693s] writing top-level names to ../../build/arm_gazebo/arm_gazebo.egg-info/top_level.txt
+[14.116s] reading manifest file '../../build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+[14.123s] writing manifest file '../../build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+[14.124s] running build
+[14.124s] running build_py
+[14.128s] copying arm_gazebo/arm_node.py -> /home/hadjer/drone_ws/build/arm_gazebo/build/lib/arm_gazebo
+[14.128s] running install
+[14.186s] running install_lib
+[14.417s] copying /home/hadjer/drone_ws/build/arm_gazebo/build/lib/arm_gazebo/arm_node.py -> /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo
+[14.427s] byte-compiling /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo/arm_node.py to arm_node.cpython-312.pyc
+[14.446s] running install_data
+[14.451s] running install_egg_info
+[14.699s] removing '/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.1-py3.12.egg-info' (and everything under it)
+[14.702s] Copying ../../build/arm_gazebo/arm_gazebo.egg-info to /home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.1-py3.12.egg-info
+[14.708s] running install_scripts
+[16.081s] Installing arm_node script to /home/hadjer/drone_ws/install/arm_gazebo/lib/arm_gazebo
+[16.097s] writing list of installed files to '/home/hadjer/drone_ws/build/arm_gazebo/install.log'
+[16.438s] Invoked command in '/home/hadjer/drone_ws/src/arm_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_gazebo build --build-base /home/hadjer/drone_ws/build/arm_gazebo/build install --record /home/hadjer/drone_ws/build/arm_gazebo/install.log --single-version-externally-managed install_data

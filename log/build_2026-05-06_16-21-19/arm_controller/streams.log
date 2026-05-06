@@ -1,0 +1,43 @@
+[3.401s] Invoking command in '/home/hadjer/drone_ws/src/arm_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_controller build --build-base /home/hadjer/drone_ws/build/arm_controller/build install --record /home/hadjer/drone_ws/build/arm_controller/install.log --single-version-externally-managed install_data
+[4.223s] running egg_info
+[4.224s] creating ../../build/arm_controller/arm_controller.egg-info
+[4.263s] writing ../../build/arm_controller/arm_controller.egg-info/PKG-INFO
+[4.264s] writing dependency_links to ../../build/arm_controller/arm_controller.egg-info/dependency_links.txt
+[4.265s] writing entry points to ../../build/arm_controller/arm_controller.egg-info/entry_points.txt
+[4.265s] writing requirements to ../../build/arm_controller/arm_controller.egg-info/requires.txt
+[4.267s] writing top-level names to ../../build/arm_controller/arm_controller.egg-info/top_level.txt
+[4.271s] writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'
+[4.397s] reading manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'
+[4.399s] writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'
+[4.400s] running build
+[4.401s] running build_py
+[4.401s] creating /home/hadjer/drone_ws/build/arm_controller/build
+[4.402s] creating /home/hadjer/drone_ws/build/arm_controller/build/lib
+[4.402s] creating /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller
+[4.402s] copying arm_controller/__init__.py -> /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller
+[4.403s] copying arm_controller/arm_node.py -> /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller
+[4.403s] running install
+[4.412s] running install_lib
+[4.454s] creating /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller
+[4.454s] copying /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller/__init__.py -> /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller
+[4.456s] copying /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller/arm_node.py -> /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller
+[4.456s] byte-compiling /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller/__init__.py to __init__.cpython-312.pyc
+[4.456s] byte-compiling /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller/arm_node.py to arm_node.cpython-312.pyc
+[4.458s] running install_data
+[4.459s] creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index
+[4.459s] creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index
+[4.460s] creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index/packages
+[4.460s] copying resource/arm_controller -> /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index/packages
+[4.461s] copying package.xml -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller
+[4.461s] creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/launch
+[4.461s] copying launch/arm_launch.py -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/launch
+[4.461s] creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/urdf
+[4.462s] copying urdf/arm.urdf -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/urdf
+[4.462s] creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/rviz
+[4.462s] copying rviz/arm.rviz -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/rviz
+[4.463s] running install_egg_info
+[4.518s] Copying ../../build/arm_controller/arm_controller.egg-info to /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller-0.0.1-py3.12.egg-info
+[4.522s] running install_scripts
+[4.871s] Installing arm_node script to /home/hadjer/drone_ws/install/arm_controller/lib/arm_controller
+[4.871s] writing list of installed files to '/home/hadjer/drone_ws/build/arm_controller/install.log'
+[4.947s] Invoked command in '/home/hadjer/drone_ws/src/arm_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_controller build --build-base /home/hadjer/drone_ws/build/arm_controller/build install --record /home/hadjer/drone_ws/build/arm_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,149 @@
+[1.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arm_gazebo']
+[1.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arm_gazebo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75c0df44cda0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75c0e008dd60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75c0e008dd60>>)
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.581s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hadjer/drone_ws'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ignore_ament_install'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['colcon_pkg']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'colcon_pkg'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['colcon_meta']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'colcon_meta'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extensions ['ros']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_gazebo) by extension 'ros'
+[1.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_gazebo' with type 'ros.ament_python' and name 'arm_gazebo'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extensions ['ignore', 'ignore_ament_install']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extension 'ignore'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extension 'ignore_ament_install'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extensions ['colcon_pkg']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extension 'colcon_pkg'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extensions ['colcon_meta']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extension 'colcon_meta'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extensions ['ros']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_follower) by extension 'ros'
+[1.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_follower' with type 'ros.ament_python' and name 'drone_follower'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extensions ['ignore', 'ignore_ament_install']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extension 'ignore'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extension 'ignore_ament_install'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extensions ['colcon_pkg']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extension 'colcon_pkg'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extensions ['colcon_meta']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extension 'colcon_meta'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extensions ['ros']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_tracker) by extension 'ros'
+[1.852s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_tracker' with type 'ros.ament_python' and name 'drone_tracker'
+[1.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.027s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drone_follower' in 'src/drone_follower'
+[2.027s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drone_tracker' in 'src/drone_tracker'
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.042s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/hadjer/ros2_ws/install
+[2.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 532 installed packages in /opt/ros/jazzy
+[2.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.664s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.668s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.668s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.668s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.668s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.668s] Level 5:colcon.colcon_core.verb:set package 'arm_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.668s] DEBUG:colcon.colcon_core.verb:Building package 'arm_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hadjer/drone_ws/build/arm_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hadjer/drone_ws/install/arm_gazebo', 'merge_install': False, 'path': '/home/hadjer/drone_ws/src/arm_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.668s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.675s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hadjer/drone_ws/src/arm_gazebo' with build type 'ament_python'
+[2.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_gazebo', 'ament_prefix_path')
+[2.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/ament_prefix_path.ps1'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/ament_prefix_path.dsv'
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/ament_prefix_path.sh'
+[2.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.550s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hadjer/drone_ws/src/arm_gazebo'
+[5.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hadjer/drone_ws/src/arm_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_gazebo build --build-base /home/hadjer/drone_ws/build/arm_gazebo/build install --record /home/hadjer/drone_ws/build/arm_gazebo/install.log --single-version-externally-managed install_data
+[19.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hadjer/drone_ws/src/arm_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hadjer/drone_ws/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_gazebo build --build-base /home/hadjer/drone_ws/build/arm_gazebo/build install --record /home/hadjer/drone_ws/build/arm_gazebo/install.log --single-version-externally-managed install_data
+[19.124s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo' for CMake module files
+[19.130s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo' for CMake config files
+[19.131s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo/lib'
+[19.132s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo/bin'
+[19.132s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo/lib/pkgconfig/arm_gazebo.pc'
+[19.133s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo/lib/python3.12/site-packages'
+[19.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_gazebo', 'pythonpath')
+[19.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/pythonpath.ps1'
+[19.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/pythonpath.dsv'
+[19.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/hook/pythonpath.sh'
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/hadjer/drone_ws/install/arm_gazebo/bin'
+[19.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_gazebo)
+[19.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/package.ps1'
+[19.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/package.dsv'
+[19.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/package.sh'
+[19.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/package.bash'
+[19.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/hadjer/drone_ws/install/arm_gazebo/share/arm_gazebo/package.zsh'
+[19.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hadjer/drone_ws/install/arm_gazebo/share/colcon-core/packages/arm_gazebo)
+[19.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.274s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.325s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.396s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hadjer/drone_ws/install/local_setup.ps1'
+[19.418s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hadjer/drone_ws/install/_local_setup_util_ps1.py'
+[19.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hadjer/drone_ws/install/setup.ps1'
+[19.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hadjer/drone_ws/install/local_setup.sh'
+[19.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hadjer/drone_ws/install/_local_setup_util_sh.py'
+[19.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hadjer/drone_ws/install/setup.sh'
+[19.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hadjer/drone_ws/install/local_setup.bash'
+[19.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hadjer/drone_ws/install/setup.bash'
+[19.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hadjer/drone_ws/install/local_setup.zsh'
+[19.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hadjer/drone_ws/install/setup.zsh'

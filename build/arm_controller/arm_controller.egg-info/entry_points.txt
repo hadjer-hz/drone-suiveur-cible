@@ -1,0 +1,2 @@
+[console_scripts]
+arm_node = arm_controller.arm_node:main

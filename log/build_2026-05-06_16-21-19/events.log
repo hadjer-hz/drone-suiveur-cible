@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'drone_follower'}
+[0.000216] (-) JobUnselected: {'identifier': 'drone_tracker'}
+[0.000243] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict()}
+[0.000267] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.099023] (-) TimerEvent: {}
+[0.201028] (-) TimerEvent: {}
+[0.303116] (-) TimerEvent: {}
+[0.405135] (-) TimerEvent: {}
+[0.507337] (-) TimerEvent: {}
+[0.607860] (-) TimerEvent: {}
+[0.708215] (-) TimerEvent: {}
+[0.811570] (-) TimerEvent: {}
+[0.911973] (-) TimerEvent: {}
+[1.013101] (-) TimerEvent: {}
+[1.116383] (-) TimerEvent: {}
+[1.217307] (-) TimerEvent: {}
+[1.317619] (-) TimerEvent: {}
+[1.419076] (-) TimerEvent: {}
+[1.519542] (-) TimerEvent: {}
+[1.621026] (-) TimerEvent: {}
+[1.723610] (-) TimerEvent: {}
+[1.825567] (-) TimerEvent: {}
+[1.931752] (-) TimerEvent: {}
+[2.033197] (-) TimerEvent: {}
+[2.136574] (-) TimerEvent: {}
+[2.238015] (-) TimerEvent: {}
+[2.339046] (-) TimerEvent: {}
+[2.440183] (-) TimerEvent: {}
+[2.542156] (-) TimerEvent: {}
+[2.644082] (-) TimerEvent: {}
+[2.744444] (-) TimerEvent: {}
+[2.847060] (-) TimerEvent: {}
+[2.947451] (-) TimerEvent: {}
+[3.047946] (-) TimerEvent: {}
+[3.150251] (-) TimerEvent: {}
+[3.252123] (-) TimerEvent: {}
+[3.353099] (-) TimerEvent: {}
+[3.400388] (arm_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_controller', 'build', '--build-base', '/home/hadjer/drone_ws/build/arm_controller/build', 'install', '--record', '/home/hadjer/drone_ws/build/arm_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hadjer/drone_ws/src/arm_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hadjer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hadjer', 'OLDPWD': '/home/hadjer/drone_ws/src/arm_controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1927', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hadjer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hadjer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hadjer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hadjer-VirtualBox:@/tmp/.ICE-unix/1891,unix/hadjer-VirtualBox:/tmp/.ICE-unix/1891', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ce5f56ff_b819_4c6a_9924_27700738564c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LTURO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hadjer/ros2_ws/install:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hadjer/drone_ws/build/arm_controller', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/home/hadjer/drone_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages:/home/hadjer/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.453854] (-) TimerEvent: {}
+[3.555029] (-) TimerEvent: {}
+[3.657181] (-) TimerEvent: {}
+[3.758711] (-) TimerEvent: {}
+[3.861737] (-) TimerEvent: {}
+[3.962617] (-) TimerEvent: {}
+[4.064708] (-) TimerEvent: {}
+[4.167294] (-) TimerEvent: {}
+[4.223406] (arm_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.224339] (arm_controller) StdoutLine: {'line': b'creating ../../build/arm_controller/arm_controller.egg-info\n'}
+[4.263405] (arm_controller) StdoutLine: {'line': b'writing ../../build/arm_controller/arm_controller.egg-info/PKG-INFO\n'}
+[4.264159] (arm_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_controller/arm_controller.egg-info/dependency_links.txt\n'}
+[4.264718] (arm_controller) StdoutLine: {'line': b'writing entry points to ../../build/arm_controller/arm_controller.egg-info/entry_points.txt\n'}
+[4.265364] (arm_controller) StdoutLine: {'line': b'writing requirements to ../../build/arm_controller/arm_controller.egg-info/requires.txt\n'}
+[4.266313] (arm_controller) StdoutLine: {'line': b'writing top-level names to ../../build/arm_controller/arm_controller.egg-info/top_level.txt\n'}
+[4.267322] (-) TimerEvent: {}
+[4.271121] (arm_controller) StdoutLine: {'line': b"writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[4.367486] (-) TimerEvent: {}
+[4.396743] (arm_controller) StdoutLine: {'line': b"reading manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[4.398984] (arm_controller) StdoutLine: {'line': b"writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[4.400566] (arm_controller) StdoutLine: {'line': b'running build\n'}
+[4.400900] (arm_controller) StdoutLine: {'line': b'running build_py\n'}
+[4.401445] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/arm_controller/build\n'}
+[4.401778] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/arm_controller/build/lib\n'}
+[4.402074] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller\n'}
+[4.402511] (arm_controller) StdoutLine: {'line': b'copying arm_controller/__init__.py -> /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller\n'}
+[4.402927] (arm_controller) StdoutLine: {'line': b'copying arm_controller/arm_node.py -> /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller\n'}
+[4.403524] (arm_controller) StdoutLine: {'line': b'running install\n'}
+[4.412426] (arm_controller) StdoutLine: {'line': b'running install_lib\n'}
+[4.453565] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller\n'}
+[4.454444] (arm_controller) StdoutLine: {'line': b'copying /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller/__init__.py -> /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller\n'}
+[4.455660] (arm_controller) StdoutLine: {'line': b'copying /home/hadjer/drone_ws/build/arm_controller/build/lib/arm_controller/arm_node.py -> /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller\n'}
+[4.455924] (arm_controller) StdoutLine: {'line': b'byte-compiling /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[4.456470] (arm_controller) StdoutLine: {'line': b'byte-compiling /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller/arm_node.py to arm_node.cpython-312.pyc\n'}
+[4.458551] (arm_controller) StdoutLine: {'line': b'running install_data\n'}
+[4.459029] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index\n'}
+[4.459339] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index\n'}
+[4.459901] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index/packages\n'}
+[4.460293] (arm_controller) StdoutLine: {'line': b'copying resource/arm_controller -> /home/hadjer/drone_ws/install/arm_controller/share/ament_index/resource_index/packages\n'}
+[4.460672] (arm_controller) StdoutLine: {'line': b'copying package.xml -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller\n'}
+[4.461026] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/launch\n'}
+[4.461365] (arm_controller) StdoutLine: {'line': b'copying launch/arm_launch.py -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/launch\n'}
+[4.461544] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/urdf\n'}
+[4.461909] (arm_controller) StdoutLine: {'line': b'copying urdf/arm.urdf -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/urdf\n'}
+[4.462248] (arm_controller) StdoutLine: {'line': b'creating /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/rviz\n'}
+[4.462533] (arm_controller) StdoutLine: {'line': b'copying rviz/arm.rviz -> /home/hadjer/drone_ws/install/arm_controller/share/arm_controller/rviz\n'}
+[4.462887] (arm_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.468630] (-) TimerEvent: {}
+[4.517900] (arm_controller) StdoutLine: {'line': b'Copying ../../build/arm_controller/arm_controller.egg-info to /home/hadjer/drone_ws/install/arm_controller/lib/python3.12/site-packages/arm_controller-0.0.1-py3.12.egg-info\n'}
+[4.521983] (arm_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.569380] (-) TimerEvent: {}
+[4.671565] (-) TimerEvent: {}
+[4.771852] (-) TimerEvent: {}
+[4.870653] (arm_controller) StdoutLine: {'line': b'Installing arm_node script to /home/hadjer/drone_ws/install/arm_controller/lib/arm_controller\n'}
+[4.871458] (arm_controller) StdoutLine: {'line': b"writing list of installed files to '/home/hadjer/drone_ws/build/arm_controller/install.log'\n"}
+[4.872848] (-) TimerEvent: {}
+[4.946703] (arm_controller) CommandEnded: {'returncode': 0}
+[4.973032] (-) TimerEvent: {}
+[5.071201] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 0}
+[5.073461] (-) EventReactorShutdown: {}

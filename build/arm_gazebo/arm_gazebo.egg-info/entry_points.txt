@@ -1,0 +1,2 @@
+[console_scripts]
+arm_node = arm_gazebo.arm_node:main
